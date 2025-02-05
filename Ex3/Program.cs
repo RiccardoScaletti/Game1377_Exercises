@@ -35,9 +35,9 @@
              */
 
             Console.WriteLine("\n Insert int1");
-            int intInput1 = int.Parse(Console.ReadLine());
+            int intInput1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\n Insert int2");
-            int intInput2 = int.Parse(Console.ReadLine());
+            int intInput2 = Convert.ToInt32(Console.ReadLine());
 
             int sum = intInput1 + intInput2;
             int diff = intInput1 - intInput2;
@@ -82,9 +82,9 @@
              */
 
             Console.WriteLine("\n Insert another int1: ");
-            int newIntInput1 = int.Parse(Console.ReadLine()); //they were already declared with the same name in part 1.
+            int newIntInput1 = Convert.ToInt32(Console.ReadLine()); //they were already declared with the same name in part 1.
             Console.WriteLine("\n Insert another int2: ");
-            int newIntInput2 = int.Parse(Console.ReadLine());
+            int newIntInput2 = Convert.ToInt32(Console.ReadLine());
 
             if (intInput1 == intInput2) { Console.WriteLine("int input 1 is equal to int input 2"); }
             else if (intInput1 != intInput2)
